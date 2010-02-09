@@ -1,16 +1,16 @@
 # Contributor: James Pearson <james.m.pearson+arch@gmail.com>
 
 pkgname=perl-email-sender-transport-smtp-tls
-pkgver=0.03
+pkgver=0.04
 pkgrel=1
 pkgdesc="Email::Sender::Transport::SMTP::TLS - Email::Sender with Net::SMTP::TLS (Eg. Gmail)"
 arch=('i686' 'x86_64')
-url="http://search.cpan.org/perldoc?Email::Sender::Transport::SMTP::TLS"
+url="http://search.cpan.org/~fayland/Email-Sender-Transport-SMTP-TLS/"
 license=('PerlArtistic')
 depends=('perl' 'perl-email-sender' 'perl-net-smtp-tls')
 options=(!emptydirs)
 source=(http://search.cpan.org/CPAN/authors/id/F/FA/FAYLAND/Email-Sender-Transport-SMTP-TLS-$pkgver.tar.gz)
-md5sums=('9ff9e1990e2c433cc5a7b80d9903714b')
+md5sums=('9ba849f168a84c2eff60098e713b8535')
 
 build() {
   cd "$srcdir/Email-Sender-Transport-SMTP-TLS-$pkgver"
